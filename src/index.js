@@ -19,7 +19,7 @@ connectDatabase();             // Now env is loaded so MONGO_URI is defined ✅
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-  origin: ["https://questpay.ng", "http://localhost:7000", "http://localhost:9001", "https://admin.questpay.ng"],
+  origin: ["https://questpay.ng", "http://localhost:7000", "https://swiftpay2.netlify.app","https://swiftpay-v2-admin.netlify.app", "https://admin.questpay.ng"],
   credentials: true,
 }));
 
