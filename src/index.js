@@ -1,5 +1,6 @@
 import dotenv from "dotenv";
-dotenv.config();           
+dotenv.config();               // Load env first ✅
+
 import express from "express";
 import cors from "cors";
 import process from "process";
