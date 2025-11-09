@@ -7,6 +7,8 @@ import transactionRouter from "./routes/transaction.route.js";
 import serviceRouter from "./routes/service.routes.js";
 import userRouter from "./routes/user.routes.js";
 import adminRouter from "./routes/admin.routes.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 const port = process.env.PORT || 3000;
 
