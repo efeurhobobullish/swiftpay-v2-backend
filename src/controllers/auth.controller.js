@@ -2,7 +2,7 @@ import { StatusCodes } from "http-status-codes";
 import UserModel from "../models/user.model.js";
 import sendEmail from "../utils/sendEmail.js";
 import { register as registerEmail } from "../Emails/register.js";
-// import { login as loginEmail } from "../Emails/login.js";
+import { login as loginEmail } from "../Emails/login.js";
 import { resendOtpEmail } from "../Emails/resendOtpEmail.js";
 import jwt from "jsonwebtoken"
 import process from "process"
