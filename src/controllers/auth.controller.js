@@ -145,7 +145,7 @@ export const login = async (req, res) => {
       expiresIn: "7d",
     });
 
-    // await sendEmail(user.email, "Questpay Login", loginEmail(user.name));
+    await sendEmail(user.email, "Swiftpay Login", loginEmail(user.name));
 
     res.status(StatusCodes.OK).json({
       message: "Login successful",
