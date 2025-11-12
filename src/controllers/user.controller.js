@@ -51,7 +51,7 @@ export const createBankAccount = async (req, res) => {
       bankCode: ["20867"], 
       businessId: BUSINESS_ID,
       accountType: "static",
-      id_type: "nin",
+      id_type: "bvn",
       id_number: idNumber,
     };
 
